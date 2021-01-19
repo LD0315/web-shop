@@ -6,7 +6,7 @@ import useStyles from './styles';
 //src/components/Products/Product/Product.jsx
 
 
-const Products = ({ products }) => {
+const Products = (products) => {
  
   /*
     const products = [
@@ -27,7 +27,7 @@ const Products = ({ products }) => {
           <Grid key={product.id} item xs={12} sm={6} md={4} lg={3}>
             <Product product={product} />
           </Grid>
-        ))};
+        ))}
       </Grid>
     </main>
   );

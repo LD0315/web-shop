@@ -8,13 +8,14 @@ import useStyles from './styles';
 const Product = ({ product }) => {
     const classes = useStyles();
 
-    //console.log(product);
-    //return <div>test</div>
+    console.log(product);
+    return <div>test</div>
     
+    /*
     return (
         <div>
             <Card className={classes.root}>
-                <CardMedia className={classes.media} image={product.media.source} title={product.name} />
+                <CardMedia className={classes.media} image={product.image} title={product.name} />
                 <CardContent>
                     <div className={classes.cardContent}>
                         <Typography variant="h5" gutterButtom>
@@ -35,6 +36,8 @@ const Product = ({ product }) => {
             
         </div>
     )
+    */
 }
+
 
 export default Product;
